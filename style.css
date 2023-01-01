@@ -15,17 +15,27 @@ h1 {
     color: #ffb300;
 }
 
+h2 {
+  margin-left: 3%;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
 .chip {
-    display: inline-block;
-    padding: 0 25px;
-    height: 40px;
-    font-size: 16px;
-    line-height: 40px;
-    border-radius: 25px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #000;
-    transition: 0.3s;
-  }
+  padding: 0 25px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 25px;
+  background-color: #ffffff00;
+  border: 2px solid #000;
+  transition: 0.3s;
+  margin: 6px;
+  float: left;
+}
 
 .chip:link {
   color: black;
@@ -44,3 +54,11 @@ h1 {
 .chip:active {
   color: #ffb300;
 }
+
+.card {
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+
