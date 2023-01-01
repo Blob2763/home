@@ -24,11 +24,8 @@ h1 {
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
     border: 2px solid #000;
+    transition: 0.3s;
   }
-
-a {
-  transition: 0.3s;
-}
 
 a:link {
   color: black;
