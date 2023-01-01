@@ -25,3 +25,23 @@ h1 {
     background-color: rgb(255, 255, 255);
     border: 2px solid #000;
   }
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffb300;
+}
+
+/* selected link */
+a:active {
+  color: #ffb300;
+}
